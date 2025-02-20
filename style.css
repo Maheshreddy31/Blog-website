@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    scroll-behavior: smooth;
+}
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    min-height: 60px;
+}
+
+.navbar h1 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+.navb {
+    max-width: 578px;
+    margin-left: 700px;
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    align-items: end;
+    margin-bottom: 20px;
+}
+
+.navb p {
+    margin-left: 40px;
+
+}
+
+.navb i {
+    margin-left: 40px;
+
+}
+
+.logos {
+    display: flex;
+    
+    
+}
+.logos i{
+    cursor: pointer;
+    font-size: 25px;
+}
+.flogo i{
+    cursor: pointer;
+    
+}
+.home{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.36px;
+text-align: left;
+    margin-top: -30px;
+}
+
+/* Hero Section */
+.herosection {
+
+    max-width: 1000px;
+    margin: 0px auto;
+    gap: 50px;
+    display: flex;
+    min-height: 470px;
+    margin-bottom: 50px;
+}
+
+.htxt {
+    display: flex;
+    flex-direction: column;
+    max-width: 330px;
+}
+
+.htxt h4 {
+    margin-top: 150px;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.htxt p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.himg img {
+    width: 556px;
+    height: 357px;
+    margin-top: 70px;
+    border-radius: 65px 65px 65px 65px;
+}
+
+/* Card section */
+.cardcont {
+    max-width: 1100px;
+    max-height: 245px;
+    display: flex;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+    border: 1px solid #e2e2e2;
+    /* border-radius: 0.5rem; */
+}
+
+.card {
+    display: flex;
+    max-width: 900px;
+    margin: 0px auto;
+    margin-top: 20px;
+
+}
+
+.card h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.ctxt p {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 10px;
+    text-align: left;
+    /* margin-bottom: 40px; */
+
+}
+
+.ctxt {
+    padding: 10px 90px;
+}
+
+.ctxt2 {
+    display: flex;
+    max-width: 500px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+/* Multiple cards */
+.cardcont2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0px auto;
+    margin-bottom: 40px;
+}
+
+.card1 {
+    max-width: 300px;
+    box-shadow: 5px 5px 4px rgba(221, 221, 221, 0.25);
+
+    transition: .2s;
+}
+
+.card1 img {
+    width: 300px;
+    height: 180px;
+    border-radius: 4px;
+}
+
+.cc2txt h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.cc2txt p {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 10px;
+    text-align: left;
+}
+
+.card1:hover {
+    scale: 1.05;
+}
+
+
+/* Bottom */
+.bottom {
+    background-color: #F7FAFC;
+    display: flex;
+    max-width: 1100px;
+    margin: 0px auto;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.bcont {
+    max-width: 1000px;
+    margin-top: 130px;
+    margin-left: 150px;
+}
+
+.btxt h2 {
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.btxt p {
+    max-width: 300px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* Button */
+.btn {
+    padding: 5px 10px;
+    margin-left: 1230px;
+    background-color: rgb(119, 3, 197);
+    text-decoration: none;
+    margin-bottom: 60px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.btn p {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+
+    text-align: left;
+
+}
+
+/* Footer */
+.line {
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+    border: 1px solid #e2e2e2;
+    
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    max-height: 51px;
+}
+
+.ftxt p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.flogo i {
+    margin-left: 20px;
+
+}
+
+
+/* Extras */
+.ctxt2 a{
+ cursor: pointer;
+ color: black;
+}
+.navb a{
+    color: black;
+    cursor: pointer;
+}
+.navb {
+    color: black;
+    cursor: pointer;
+}
+.ctxt2 b{
+    cursor: pointer;
+}
+
+
+
+/* Post */
+.post{
+    max-width: 950px;
+    margin: 0px auto ;
+}
+.post img{
+    margin-top: 60px;
+}
+
+.content{
+    max-width: 850px;
+    margin: 0px auto ;
+    margin-right: 130px;
+    margin-bottom: 50px;
+}
+
+.content h1{
+    font-family: Inter;
+font-size: 45px;
+font-weight: 700;
+line-height: 54.46px;
+text-align: left;
+
+}
+.sub{
+    display: flex;
+}
+.sub h2{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.78px;
+text-align: left;
+
+}
+.sub p{
+    margin-top: 2px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.line1{
+    border: 1px solid #E8E7E7;
+    margin-bottom: 30px;
+}
+
+.content p{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.36px;
+text-align: left;
+margin-bottom: 20px;
+
+}
+.content h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content h4{
+    font-family: Inter;
+font-size: 16px;
+font-style: italic;
+font-weight: 700;
+line-height: 19.36px;
+text-align: left;
+margin-bottom: 20px;
+}
